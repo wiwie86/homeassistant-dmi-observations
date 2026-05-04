@@ -4,9 +4,9 @@
   "codeowners": ["@wiwie86"],
   "config_flow": true,
   "documentation": "https://github.com/wiwie86/homeassistant-dmi-observations",
+  "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/wiwie86/homeassistant-dmi-observations/issues",
   "integration_type": "service",
-  "iot_class": "cloud_polling",
   "loggers": ["custom_components.dmi_observation"],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
