@@ -10,6 +10,9 @@ Features:
 - precipitation sensors for now, 10 minutes, 1 hour, 3 hours, 6 hours, 12 hours, and 24 hours
 - configurable polling interval with a hard minimum of 10 minutes
 
+Requirements:
+- Home Assistant `2025.1.0` or newer
+
 Project layout:
 - `custom_components/dmi_observation/` contains the integration code
 
