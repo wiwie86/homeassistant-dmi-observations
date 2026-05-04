@@ -1,0 +1,57 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Station is already configured",
+      "reauth_successful": "Re-authentication was successful",
+      "reconfigure_successful": "Reconfiguration was successful"
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to DMI",
+      "invalid_location": "Invalid latitude or longitude",
+      "station_not_found": "Station was not found",
+      "unknown": "Unexpected error"
+    },
+    "step": {
+      "user": {
+        "title": "Add DMI Observation",
+        "description": "Enter the latitude and longitude you want to search around.",
+        "data": {
+          "latitude": "Latitude",
+          "longitude": "Longitude"
+        }
+      },
+      "station_select": {
+        "title": "Select DMI Station",
+        "description": "Select the nearest active station for latitude {latitude} and longitude {longitude}.",
+        "data": {
+          "station_id": "Station"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure DMI Observation",
+        "description": "Select a different active station.",
+        "data": {
+          "station_id": "Station"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reconnect DMI Observation",
+        "description": "Select the station the integration should reconnect to.",
+        "data": {
+          "station_id": "Station"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "DMI Observation Options",
+        "description": "Adjust how often data is fetched from DMI. The minimum is 600 seconds.",
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}

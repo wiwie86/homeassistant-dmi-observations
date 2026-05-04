@@ -1,0 +1,57 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Die Station ist bereits eingerichtet",
+      "reauth_successful": "Die erneute Authentifizierung war erfolgreich",
+      "reconfigure_successful": "Die Neukonfiguration war erfolgreich"
+    },
+    "error": {
+      "cannot_connect": "Verbindung zu DMI fehlgeschlagen",
+      "invalid_location": "Ungueltiger Breitengrad oder Laengengrad",
+      "station_not_found": "Station wurde nicht gefunden",
+      "unknown": "Unerwarteter Fehler"
+    },
+    "step": {
+      "user": {
+        "title": "DMI Observation hinzufuegen",
+        "description": "Gib den Breitengrad und Laengengrad ein, in deren Naehe gesucht werden soll.",
+        "data": {
+          "latitude": "Breitengrad",
+          "longitude": "Laengengrad"
+        }
+      },
+      "station_select": {
+        "title": "DMI-Station auswaehlen",
+        "description": "Waehle die naechstgelegene aktive Station fuer Breitengrad {latitude} und Laengengrad {longitude} aus.",
+        "data": {
+          "station_id": "Station"
+        }
+      },
+      "reconfigure": {
+        "title": "DMI Observation neu konfigurieren",
+        "description": "Waehle eine andere aktive Station aus.",
+        "data": {
+          "station_id": "Station"
+        }
+      },
+      "reauth_confirm": {
+        "title": "DMI Observation neu verbinden",
+        "description": "Waehle die Station aus, mit der sich die Integration wieder verbinden soll.",
+        "data": {
+          "station_id": "Station"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "DMI Observation Optionen",
+        "description": "Lege fest, wie oft Daten von DMI abgefragt werden. Das Minimum sind 600 Sekunden.",
+        "data": {
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        }
+      }
+    }
+  }
+}
