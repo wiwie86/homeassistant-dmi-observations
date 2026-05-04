@@ -8,5 +8,5 @@
   "issue_tracker": "https://github.com/wiwie86/homeassistant-dmi-observations/issues",
   "integration_type": "service",
   "loggers": ["custom_components.dmi_observation"],
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
